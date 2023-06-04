@@ -1,0 +1,68 @@
+header{
+grid-area: 'header';
+background-color: #333;
+color: #fff;
+padding: 20px;
+}
+
+body{
+ display:grid;
+ grid-template-areas: 
+ 'header' 'header''header'
+ 'main' 'main' 'main'
+ 'footer' 'footer''footer';
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    grid-area:'footer';
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  footer label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  footer input,
+  footer textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  footer textarea {
+    height: 120px;
+  }
+  
+  footer button[type="submit"] {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer button[type="submit"]:hover {
+    background-color: #ddd;
+  }
+
