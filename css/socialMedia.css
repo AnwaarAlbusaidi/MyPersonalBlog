@@ -1,0 +1,41 @@
+/* Media queries for responsive design */
+
+/* Styles for screens up to 600px */
+@media (max-width: 600px) {
+    main {
+      flex-direction: column;
+    }
+  
+    #technology,
+    #business,
+    #software {
+      flex-basis: 100%;
+    }
+  }
+  
+  /* Styles for screens between 601px and 992px */
+  @media (min-width: 601px) and (max-width: 992px) {
+    main {
+      flex-wrap: wrap;
+    }
+  
+    #technology,
+    #business,
+    #software {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  
+  /* Styles for screens 993px and above */
+  @media (min-width: 993px) {
+    main {
+      flex-wrap: nowrap; /* Prevent wrapping on larger screens */
+    }
+  
+    #technology,
+    #business,
+    #software {
+      flex-basis: calc(33.33% - 20px);
+    }
+  }
+  

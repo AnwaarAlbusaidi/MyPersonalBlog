@@ -1,10 +1,4 @@
-/* Styles for the header */
-header {
-  grid-area: header;
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
+
 
 /* Styles for the navigation menu */
 nav ul {
@@ -40,7 +34,7 @@ main {
 }
 
 /* Styles for the author image */
-.author-image {
+.avatar{
   border-radius: 150%;
   object-fit: cover;
 }
@@ -78,6 +72,11 @@ article p {
   margin-top: 0;
 }
 
+article blockquote {
+  margin-top: 0;
+  margin-left: 0;
+}
+
 article a {
   text-decoration: none;
   color: #333;
@@ -94,15 +93,6 @@ article img {
   height: auto;
   display: block;
   margin-bottom: 10px;
-}
-
-/* Styles for the footer */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 40px 20px;
-  text-align: center;
-  grid-area: footer;
 }
 
 /* Styles for the form within the main section */
