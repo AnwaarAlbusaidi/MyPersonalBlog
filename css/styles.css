@@ -1,3 +1,8 @@
+@import 'footer.css';
+@import 'header.css';
+@import 'socialMedia.css';
+
+
 
 /* Styles for the navigation menu */
 nav ul {
